@@ -1,0 +1,40 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+**/.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local database and large raw data
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+data/raw/*.csv
+data/raw/*.zip
+data/raw/*.parquet
+
+# Large generated intermediate tables
+data/processed/borrow_hourly.csv
+data/processed/return_hourly.csv
+data/processed/demand_hourly.csv
+data/processed/flow_hourly.csv
+data/processed/station_type_hourly.csv
+
+# Logs and temporary files
+*.log
+*.tmp
+~$*
