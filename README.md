@@ -11,7 +11,7 @@
 - **站点分层分析**：将站点划分为潮汐流入型、潮汐流出型、通勤型、稳定休闲型，支撑差异化调度。
 - **风险优先级排序**：识别高风险站点，并为不同站点类型生成补车、清车、预留车位等运营建议。
 - **短期需求预测**：使用 Prophet 对未来 7 天需求进行预测，为提前调度提供参考。
-- **可展示 Dashboard**：输出 Tableau 风格运营看板截图，适合作品集、面试讲解和简历项目链接。
+- **可展示 Dashboard**：输出 Tableau 风格运营看板截图，适合作品集展示和面试讲解。
 
 ## 业务问题
 
@@ -123,8 +123,6 @@ YouBike_Project/
 │   ├── README.md               # 数据文件说明与复现提示
 │   ├── processed/              # 可提交的小型结果表；大型中间表已忽略
 │   └── raw/                    # 原始数据目录，默认不提交
-├── docs/
-│   └── resume_project_summary.md
 ├── notebooks/                  # 分步骤分析 Notebook
 ├── reports/
 │   ├── figures/                # 分析图表
@@ -180,14 +178,6 @@ jupyter notebook
 - Top20 高风险站点
 - 风险等级分布
 - 调度策略分布
-
-## 简历写法
-
-可参考 [docs/resume_project_summary.md](docs/resume_project_summary.md) 中的简历 bullet 和面试讲述版本。
-
-示例：
-
-> 基于 525 万+ 条台北 YouBike 骑行日志，使用 Python、SQL 和 Prophet 构建共享单车需求预测与运营分析项目；完成小时级需求聚合、站点潮汐流识别、风险评分和调度策略生成，并输出 Tableau 风格运营看板，为车辆补给、车位预留和高风险站点监控提供数据支持。
 
 ## 后续优化方向
 
